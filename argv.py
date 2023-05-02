@@ -33,3 +33,4 @@ def myfunc(argv):
 
 if __name__ == "__main__":
     myfunc(sys.argv)
+    print(f"file path: {sys.argv[0]}")
